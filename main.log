@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.4.1)  5 MAY 2017 20:58
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.4.1)  5 MAY 2017 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1402,10 +1402,8 @@ Package: hologo 2012/04/26 v1.10 A logo collection with bookmark support (HO)
 \c@lemma=\count164
 \c@theorem=\count165
 \c@remark=\count166
- (./main.aux
-(./chap/announce.aux) (./chap/abstract.aux) (./chap/introduction.aux)
-(./chap/basic.aux) (./chap/stochgalerkin.aux) (./chap/pub.aux)
-(./chap/resume.aux) (./chap/thanks.aux))
+
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -1426,7 +1424,6 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 53.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 53.
-
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
@@ -1549,6 +1546,9 @@ LaTeX Info: Redefining \nameref on input line 53.
 \openout3 = `main.out'.
 
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
@@ -1663,29 +1663,37 @@ ve propagation, operator marching method,
 ) [5] [6
 
 
-] (./main.toc)
+]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [7] [8
+[7] [8
 
-] (./main.lof)
+]
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [9] [10
+[9] [10
 
-] (./main.lot)
+]
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [11] [12
+[11] [12
 
 ]
 \openout2 = `chap/introduction.aux'.
 
-
-(./chap/introduction.tex
+ (./chap/introduction.tex
 第1章
 ) [1
 
@@ -1760,10 +1768,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 86.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 28498 strings out of 493706
- 561051 string characters out of 6147749
- 577649 words of memory out of 5000000
- 31472 multiletter control sequences out of 15000+600000
+ 28466 strings out of 493706
+ 560572 string characters out of 6147749
+ 573933 words of memory out of 5000000
+ 31464 multiletter control sequences out of 15000+600000
  23540 words of font info for 122 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  69i,11n,76p,10455b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
