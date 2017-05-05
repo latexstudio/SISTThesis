@@ -5,7 +5,7 @@
 % 博士使用 doctor, 硕士使用 master
 \usepackage[numbers,sort & compress]{natbib} 
 %\usepackage{hypernat} 
-
+\usepackage{hologo}
 
 \title{随机亥姆霍兹方程的数值解法}
 \setitle{Numerical methods for Helmholtz}
@@ -44,6 +44,12 @@
 \newcommand{\jacp}{\alpha,\beta}
 \newcommand{\funinner}[2]{\langle#1, #2\rangle}
 \newcommand{\vecinner}[2]{(#1, #2)}
+
+
+\newcommand{\XeLaTeX}{\hologo{XeLaTeX}}
+\newcommand{\BibTeX}{\hologo{BibTeX}}
+\newcommand{\TeXLive}{\TeX{} Live}
+\newcommand{\TeXstudio}{\TeX{}studio}
 \begin{document}
 
 	
@@ -51,11 +57,11 @@
 \makeenglishtitle
 
 \frontmatter
-%\include{chap/announce}
-%\include{chap/abstract}
+\include{chap/announce}
+\include{chap/abstract}
 \tableofcontents
-%\listoffigures
-%\listoftables
+\listoffigures
+\listoftables
 %正文部分
 \mainmatter
 \include{chap/introduction}
@@ -73,8 +79,8 @@
 \addcontentsline{toc}{chapter}{\bibname}
 
 \backmatter
-%\include{chap/pub}
-%\include{chap/resume}
-%\include{chap/thanks}
+\include{chap/pub}
+\include{chap/resume}
+\include{chap/thanks}
 
 \end{document}
