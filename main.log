@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.4.1)  5 MAY 2017 21:10
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.4.1)  5 MAY 2017 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1402,8 +1402,10 @@ Package: hologo 2012/04/26 v1.10 A logo collection with bookmark support (HO)
 \c@lemma=\count164
 \c@theorem=\count165
 \c@remark=\count166
-
-No file main.aux.
+ (./main.aux
+(./chap/announce.aux) (./chap/abstract.aux) (./chap/introduction.aux)
+(./chap/basic.aux) (./chap/stochgalerkin.aux) (./chap/pub.aux)
+(./chap/resume.aux) (./chap/thanks.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -1424,6 +1426,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 53.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 53.
+
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
@@ -1546,9 +1549,6 @@ LaTeX Info: Redefining \nameref on input line 53.
 \openout3 = `main.out'.
 
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 *************************************************
 * fontspec warning: "script-not-exist"
 * 
@@ -1654,39 +1654,25 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [3] [4
 
-]
-Overfull \hbox (0.6738pt too wide) in paragraph at lines 15--16
-\EU1/lmr/bx/n/12.045 Keywords:  \EU1/lmr/m/n/12.045 Helmholtz equation, PML, wa
-ve propagation, operator marching method,
- []
-
-) [5] [6
+]) [5] [6
 
 
-]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+] (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-[7] [8
+ [7] [8
 
-]
-
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
-
+] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
-[9] [10
+ [9] [10
 
-]
-
-Package hyperref Warning: old lot file detected, not used; run LaTeX again.
-
+] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
+
 
 [11] [12
 
@@ -1695,13 +1681,49 @@ Package hyperref Warning: old lot file detected, not used; run LaTeX again.
 
  (./chap/introduction.tex
 第1章
+*************************************************
+* fontspec warning: "script-not-exist"
+* 
+* Font 'FandolFang-Regular' does not contain script 'CJK'.
+*************************************************
+\g__fontspec_family_FandolFang-Regular_int=\count169
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 10.
+
+(/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FandolFang-Regular(0)' created for font 'FandolFang-Regular'
+. with options [Script={CJK},Extension={.otf},AutoFakeBold={4}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"[FandolFang-Regular.otf]/OT:"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"[FandolFang-Regular.otf]/OT:embolden=4;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
 ) [1
 
 
 ]
 \openout2 = `chap/basic.aux'.
 
- (./chap/basic.tex [2
+
+(./chap/basic.tex [2
 
 
 
@@ -1719,11 +1741,7 @@ Package hyperref Warning: old lot file detected, not used; run LaTeX again.
 ) [5] (./main.bbl [6
 
 
-]
-
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
-
-) [7] [8
+]) [7] [8
 
 ]
 \openout2 = `chap/pub.aux'.
@@ -1768,11 +1786,11 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 86.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 28466 strings out of 493706
- 560572 string characters out of 6147749
- 573933 words of memory out of 5000000
- 31464 multiletter control sequences out of 15000+600000
- 23540 words of font info for 122 fonts, out of 8000000 for 9000
+ 28555 strings out of 493706
+ 562482 string characters out of 6147749
+ 577665 words of memory out of 5000000
+ 31520 multiletter control sequences out of 15000+600000
+ 23564 words of font info for 125 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  69i,11n,76p,10455b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 
