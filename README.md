@@ -1,7 +1,7 @@
 # SISTThesis
 LaTeX template for SIST of ShanghaiTeh University
 
-本模板依赖于CTEX宏集，并调用CTEX宏集中的ctexbook模板.
+本模板依赖于CTEX宏集(2015年V2.2及以后的版本)，并调用CTEX宏集中的ctexbook模板.
 
 CTEX 宏集可用以下方式安装：
 1. windows用户从http://www.ctex.org/HomePage 安装完整版的CTEX套装，完整版的CTEX套装包含了CTEX宏集。
