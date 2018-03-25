@@ -1,0 +1,108 @@
+% !TeX program = xelatex
+% !TeX encoding = UTF-8
+%  请使用xeLaTeX进行编译
+\documentclass[postdoc,twoside]{sistthesis} % replace postdoc by master or doctor
+%\usepackage[numbers,comma, sort&compress]{natbib}      % 引用格式使用数字  [1,2] 
+\usepackage[super,square,comma,sort&compress]{natbib} % 引用格式使用上标  ^{[1,2]}
+\bibliographystyle{gbt-7714-2015-numerical} %使用GBT7714标准的参考文献格式 (按引用顺序排列参考文献)
+%\bibliographystyle{gbt-7714-2015-author-year} %使用GBT7714标准的参考文献格式(按作者-日期排列参考文献)
+
+\usepackage{hypernat} 
+\usepackage{subfig}
+\usepackage{comment,multirow,float}
+% set search path
+\graphicspath{{pic/}}
+
+
+
+
+%%%%% 分类号等
+\classification{TM13}
+\confidential{不涉密}
+\UDC{}
+\IDnumber{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%  博士后工作报告将此处注释取消
+%%%%%   封面
+\title{博士后工作报告\LaTeX 模板}
+\author{王官杰}
+\jobbegin{2015年7月22日}
+\jobend{2018年3月31日}
+\reportfinish{2015年7月—2018年3月}
+\submitdate{2018年3月} 
+
+%%%%% 题名页
+\englishtitle{\LaTeX Template of Postdoctoral Research Report}
+\discipline{电子科学与技术}
+\major{电磁场与微波技术}
+\institute{中国科学院上海微系统与信息技术研究所}
+\address{上海}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%  学位论文将此处注释取消
+%%%%    中文题名页
+%\title{带随机变量的Helmholtz方程的高效数值方法}
+%\setitle{Efficient Numerical methods for}
+%\setitlee{Helmholtz equations with random inputs}
+%\author{王官杰}
+%\discipline{电子科学与技术}
+%\major{电磁场与微波技术}
+%\research{微分方程数值解}
+%\advisor{廖奇峰}
+%\school{信息科学与技术学院}
+%\submitdate{2018年3月} 
+
+%%%%%     英文题名页
+%\englishtitle{Efficient numerical methods for\\ Helmholtz equations with random inputs}
+%\englishauthor{Guanjie Wang}
+%\englishschool{School of Inforamtion Science and Technology}
+%\englishsubmitdate{Apr., 2017}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 自定义宏命令，不需要可删除，也可自行添加需要的宏命令
+\newtheorem{definition}{定义}[chapter]
+\newtheorem{example}{例}[chapter]
+\newtheorem{lemma}{引理}[chapter]
+\newtheorem{theorem}{定理}[chapter]
+\newtheorem{remark}{注}[chapter]
+
+
+\begin{document}
+
+	
+\maketitle
+\makeenglishtitle
+
+\frontmatter
+%\include{chap/announce}
+\include{chap/abstract}
+\tableofcontents
+\listoffigures
+\listoftables
+\include{chap/notation}
+
+
+%%正文部分
+\mainmatter
+\include{chap/intro}
+\include{chap/basic}
+\include{chap/math}
+\include{chap/tabfig}
+\appendix
+\include{chap/req}
+
+
+\backmatter
+\include{chap/thanks}
+\bibliography{book,journal}
+\addcontentsline{toc}{chapter}{\bibname}
+\include{chap/resume}
+\include{chap/pub}
+
+
+\end{document}
