@@ -1,5 +1,5 @@
  # SISTThesis
- LaTeX template for SIST of ShanghaiTeh University
+ LaTeX template for SIST of ShanghaiTech University
  
  本模板依赖于CTEX宏集(2015年V2.2及以后的版本)，并调用CTEX宏集中的ctexbook模板.
  
