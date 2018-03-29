@@ -21,7 +21,7 @@
 % terminates the option processing 结束option进程
 \ProcessOptions\relax
 
-\LoadClass[a4paper,zihao=-4]{ctexbook}
+\LoadClass[a4paper,UTF8,zihao=-4]{ctexbook}
 
 \RequirePackage{amsmath,amsthm,amsfonts,amssymb,bm}
 \RequirePackage{graphicx,color,CJKfntef,geometry,fancyhdr}
@@ -269,8 +269,8 @@
 \fancyhf{}
 \fancyhead[RE]{\small \rightmark}
 \fancyhead[LO]{\small \leftmark}
-\fancyhead[LE,RO]{\small ~\thepage~}
-
+%\fancyhead[LE,RO]{\small ~\thepage~}
+\fancyfoot[C]{\small ~\thepage~}
 
 % 设置章节目录等格式
 %\ctexset{%
