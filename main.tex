@@ -1,18 +1,28 @@
 % !TeX program = xelatex
 % !TeX encoding = UTF-8
 %  请使用xeLaTeX进行编译
-\documentclass[postdoc,twoside]{sistthesis} % replace postdoc by master or doctor
-%\usepackage[numbers,comma, sort&compress]{natbib}      % 引用格式使用数字  [1,2] 
-\usepackage[super,square,comma,sort&compress]{natbib} % 引用格式使用上标  ^{[1,2]}
-\bibliographystyle{gbt-7714-2015-numerical} %使用GBT7714标准的参考文献格式 (按引用顺序排列参考文献)
-%\bibliographystyle{gbt-7714-2015-author-year} %使用GBT7714标准的参考文献格式(按作者-日期排列参考文献)
+\documentclass[postdoc,oneside]{sistthesis}
+% 选项  postdoc|doctor|master  默认postdoc
+%      onesid|twoside         postdoc 请选单栏(编写规则要求单面)
 
-\usepackage{hypernat} 
+
+%%% 引用格式使用数字  [1,2] 
+%\usepackage[numbers,comma, sort&compress]{natbib}      
+
+%%% 引用格式使用上标  ^{[1,2]}
+\usepackage[super,square,comma,sort&compress]{natbib} 
+
+%%%使用GBT7714标准的参考文献格式 (按引用顺序排列参考文献)
+\bibliographystyle{gbt-7714-2015-numerical} 
+
+%%%使用GBT7714标准的参考文献格式(按作者-日期排列参考文献)
+%\bibliographystyle{gbt-7714-2015-author-year} 
+
+%\usepackage{hypernat} 
 \usepackage{subfig}
 \usepackage{comment,multirow,float}
 % set search path
 \graphicspath{{pic/}}
-
 
 
 
